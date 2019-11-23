@@ -40,16 +40,16 @@ SubMettAgg1DFDay <- read.csv("./WeeklyTS.csv")
 # write.csv2(TotX2# %>% subset(customer %in% YDF$customer)
 #            ,"./datasets/X2.csv")
 
-TotX2$Posix <-  as.POSIXct(TotX2$timestamp, "%Y/%m/%d %H:%M")  #:%S
-TotX2
-
-TotX2$Date <- date(TotX2$Posix)
-
-TotX2 %>% group_by
-
-TotX2$quantity <- as.numeric(TotX2$quantity)
-
-TotX2$billing <- as.numeric(TotX2$billing)
+# TotX2$Posix <-  as.POSIXct(TotX2$timestamp, "%Y/%m/%d %H:%M")  #:%S
+# TotX2
+# 
+# TotX2$Date <- date(TotX2$Posix)
+# 
+# TotX2 %>% group_by
+# 
+# TotX2$quantity <- as.numeric(TotX2$quantity)
+# 
+# TotX2$billing <- as.numeric(TotX2$billing)
 
 
 
